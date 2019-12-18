@@ -1,0 +1,30 @@
+body{
+    background-color:orangered;
+    margin: 0;
+}
+.card{
+    list-style:none;
+    padding: 40px;
+    background-color: white;
+    color:black;
+}
+.card-title{
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+.card-subtitle{
+    font-weight: lighter;
+    color: blue;
+    margin-top: 5px;
+}
+.card-image{
+    height: 180px;
+    margin: 0 auto;
+}
+#pokedex{
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
